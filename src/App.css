@@ -1,0 +1,50 @@
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha todos os itens ao centro */
+  font-size: calc(10px + 2vmin);
+  color: #5e17eb;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza a barra de pesquisa */
+  width: 100%; /* Altere de 00% para 100% */
+  margin-top: -110px; /* Ajuste este valor conforme necessário */
+}
+
+.search-bar {
+  display: block;
+  margin: 4% auto; /* Ajuste este valor se necessário */
+  width: 80%; /* Ajuste a largura para um valor adequado */
+  max-width: 600px; /* Valor máximo opcional */
+}
+
+.logo {
+  margin-top: 20px; /* Espaçamento acima da logo */
+  width: 170px; /* Largura da logo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.logo-title {
+  align-self: flex-start; /* Alinha à esquerda */
+  margin-left: 20px; /* Espaço à esquerda */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
