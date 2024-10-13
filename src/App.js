@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="logo-title">Dasenergéticas</h1>
+        <h1 className="logo-title rowdies-bold">Dasenergéticas</h1> {/* Classe para a fonte */}
         <div className="header-top">
           <input
             type="text"
@@ -15,11 +15,11 @@ function App() {
           />
         </div>
         <img src={logo} className="logo" alt="logo" />
-        <p className="introducao">
+        <p className="introducao rowdies-regular">
           Olá, sou Ana Rodrigues, psicanalista, mentora, consultora, e vou guiar você para o seu autoconhecimento.
         </p>
         <div className="servicos">
-          <h2>Serviços:</h2>
+          <h2 className="rowdies-bold">Serviços:</h2> {/* Classe para a fonte */}
           <ul>
             <li>Terapi a Individual: R$ 251,00 por sessão</li>
             <li>Constelação Familiar: R$ 450,00 (presencial ou online)</li>
