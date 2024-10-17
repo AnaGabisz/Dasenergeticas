@@ -19,8 +19,8 @@
 .search-bar {
   display: block;
   margin: 4% auto; /* Ajuste este valor se necessário */
-  width: 80%; /* Ajuste a largura para um valor adequado */
-  max-width: 600px; /* Valor máximo opcional */
+  width: 70%; /* Ajuste a largura para um valor adequado */
+  max-width: 500px; /* Valor máximo opcional */
 }
 
 .logo {
@@ -33,11 +33,31 @@
   align-self: flex-start; /* Alinha à esquerda */
   margin-left: 20px; /* Espaço à esquerda */
 }
+.poppins-text {
+  font-family: 'Poppins', sans-serif;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.login-register {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Ajuste conforme necessário */
+  font-size: 16px; /* Ajuste o tamanho da fonte se necessário */
+  color: #5e17eb; /* Ajuste a cor conforme necessário */
+}
+
+.user-area { /* Atualizando a classe para a estrutura que criamos */
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Para indicar que é clicável */
+}
+
+.user-icon {
+  margin-right: 8px; /* Espaço entre ícone e texto */
 }
 
 @keyframes App-logo-spin {
